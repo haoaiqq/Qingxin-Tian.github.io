@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qingxin Tian's Portfolio</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, rgb(50, 117, 242), rgb(230, 200, 255));
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      color: rgb(51, 51, 51);
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .interest-tag {
+      background-color: rgb(224, 224, 224);
+      padding: 5px 10px;
+      border-radius: 15px;
+    }
+    .pet-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .pet-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid rgb(230, 230, 230);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Hi, I'm Qingxin Tian!</h1>
+      <p> (Qingxin Tian)</p>
+      <p>they/she</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>I'm a <strong>passionate</strong> student pursuing a Bachelor's degree in Robotics and Mechatronics Engineering at UNSW.</p>
+        <p>I love reading books, watching movies, playing games, and taking care of my pets.</p>
+      </section>
+
+      <section>
+        <h2>Interests</h2>
+        <div class="interests">
+          <span class="interest-tag">Reading</span>
+          <span class="interest-tag">Movies</span>
+          <span class="interest-tag">Gaming</span>
+          <span class="interest-tag">Pets</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>My Pets</h2>
+        <p>Here are some photos of my beloved pets:</p>
+        <div class="pet-gallery">
+          <img src="Harley1.jpg" alt="My Cat 1" class="pet-image">
+          <img src="Harley2.jpg" alt="My Cat 2" class="pet-image">
+          <img src="fish.jpg" alt="My Fish Tank" class="pet-image">
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>View me on GitHub: <a href="https://github.com/haoaiqq">github.com/haoaiqq</a></p>
+    </footer>
+  </div>
+</body>
+
+</html>
